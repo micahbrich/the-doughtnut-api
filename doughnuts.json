@@ -1,0 +1,49 @@
+{
+  "doughnuts": [
+    {
+      "id": 1,
+      "style": "Old Fashioned",
+      "flavor": "Chocolate"
+    },
+    {
+      "id": 2,
+      "style": "Cake",
+      "flavor": "Coconut"
+    },
+    {
+      "id": 3,
+      "style": "Yeast",
+      "flavor": "Frosted"
+    },
+    {
+      "id": 4,
+      "style": "Glazed",
+      "flavor": "Plain"
+    },
+    {
+      "id": 5,
+      "style": "Cruller",
+      "flavor": "Plain"
+    },
+    {
+      "id": 6,
+      "style": "French Cruller",
+      "flavor": "Strawberry"
+    },
+    {
+      "id": 7,
+      "style": "Jelly",
+      "flavor": "Raspberry"
+    },
+    {
+      "id": 8,
+      "style": "Cream",
+      "flavor": "Boston Creme"
+    },
+    {
+      "id": 9,
+      "style": "Fritter",
+      "flavor": "Apple"
+    }
+  ]
+}

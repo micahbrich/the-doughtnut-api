@@ -1,0 +1,15 @@
+{
+  "name": "doughnuts-api",
+  "version": "1.0.0",
+  "description": "a simple example API for doughnuts",
+  "main": "app.js",
+  "scripts": {
+    "start": "json-server doughnuts.json",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "micah rich",
+  "license": "ISC",
+  "dependencies": {
+    "json-server": "^0.7.25"
+  }
+}
