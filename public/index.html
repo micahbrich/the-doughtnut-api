@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>GA Doughnuts API</title>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+      <img class='logo' src="img/GA_secondary_cog_white.png" alt="General Assembly">
+      <h1>Doughnuts API</h1>
+      <section>
+        <h3>Introduction</h3>
+        <p>
+          This is an example RESTful API around the most delicious thing in the entire world – doughnuts. You can do anything you'd expect to do with a RESTful API:
+        </p>
+        <p>
+          <ul>
+            <li>GET</li>
+            <li>POST</li>
+            <li>PUT</li>
+            <li>PATCH</li>
+            <li>DELETE</li>
+          </ul>
+        </p>
+        <p>
+          And furthermore, everything is set up to use both CORS and JSONP, so you should be able to access this information from any client.
+        </p>
+      </section>
+
+      <section>
+        <h3>Example Output</h3>
+
+<pre style="background:#fff;color:#000">
+<span class='comment'>http://api.doughnuts.ga/doughnuts</span>
+[
+  {
+    <span style="color:#00a33f">"id"</span>: 1,
+    <span style="color:#00a33f">"style"</span>: <span style="color:#00a33f">"Old Fashioned"</span>,
+    <span style="color:#00a33f">"flavor"</span>: <span style="color:#00a33f">"Chocolate"</span>
+  },
+  {
+    <span style="color:#00a33f">"id"</span>: 2,
+    <span style="color:#00a33f">"style"</span>: <span style="color:#00a33f">"Cake"</span>,
+    <span style="color:#00a33f">"flavor"</span>: <span style="color:#00a33f">"Coconut"</span>
+  },
+  {
+    <span style="color:#00a33f">"id"</span>: 3,
+    <span style="color:#00a33f">"style"</span>: <span style="color:#00a33f">"Yeast"</span>,
+    <span style="color:#00a33f">"flavor"</span>: <span style="color:#00a33f">"Frosted"</span>
+  },
+<span class='comment'>...</span>
+]
+</pre>
+
+<pre style="background:#fff;color:#000">
+<span class='comment'>http://api.doughnuts.ga/doughnuts/3</span>
+{
+  <span style="color:#00a33f">"id"</span>: 3,
+  <span style="color:#00a33f">"style"</span>: <span style="color:#00a33f">"Yeast"</span>,
+  <span style="color:#00a33f">"flavor"</span>: <span style="color:#00a33f">"Frosted"</span>
+}
+</pre>
+
+
+      </section>
+      <section>
+        <h3>Usage</h3>
+        <p>
+          This API is for example purposes, so feel free to modify, delete, and add information as necessary.
+        </p>
+        <p>
+          <strong>Keep it clean, keep it classy, keep it doughnuts.</strong>
+        </p>
+      </section>
+
+      <footer>
+        <p>
+          For usage in <a href="https://generalassemb.ly/education/web-development-immersive">General Assembly's Web Development Immersive.</a> Made with &hearts; in Los Angeles, California.
+        </p>
+      </footer>
+    </body>
+</html>
